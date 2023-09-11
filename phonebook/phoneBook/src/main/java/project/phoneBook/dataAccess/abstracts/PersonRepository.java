@@ -7,3 +7,4 @@ import project.phoneBook.entities.concretes.Person;
 public interface PersonRepository extends JpaRepository<Person, Integer>{
 	boolean existsByNumber(String number);
 }
+//eklendi
